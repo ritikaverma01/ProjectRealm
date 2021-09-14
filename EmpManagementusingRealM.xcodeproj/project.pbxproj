@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D41EC1F26EF0BF200B812B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41EC1E26EF0BF200B812B6 /* AppDelegate.swift */; };
+		0D41EC2126EF0BF200B812B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41EC2026EF0BF200B812B6 /* SceneDelegate.swift */; };
+		0D41EC2626EF0BF200B812B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D41EC2426EF0BF200B812B6 /* Main.storyboard */; };
+		0D41EC2826EF0BF300B812B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D41EC2726EF0BF300B812B6 /* Assets.xcassets */; };
+		0D41EC2B26EF0BF300B812B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D41EC2926EF0BF300B812B6 /* LaunchScreen.storyboard */; };
+		0D41EC3626EF0BF300B812B6 /* EmpManagementusingRealMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41EC3526EF0BF300B812B6 /* EmpManagementusingRealMTests.swift */; };
+		0D41EC4126EF0BF300B812B6 /* EmpManagementusingRealMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41EC4026EF0BF300B812B6 /* EmpManagementusingRealMUITests.swift */; };
+		0D41EC5326EF0D8E00B812B6 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41EC5126EF0D8E00B812B6 /* EmployeeListViewController.swift */; };
+		0D41EC5426EF0D8E00B812B6 /* AddEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41EC5226EF0D8E00B812B6 /* AddEmployeeViewController.swift */; };
+		0D41EC5A26EF0DC300B812B6 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D41EC5826EF0DC300B812B6 /* EmployeeTableViewCell.swift */; };
+		0D41EC5B26EF0DC300B812B6 /* EmployeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D41EC5926EF0DC300B812B6 /* EmployeeTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D41EC3226EF0BF300B812B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D41EC1326EF0BF200B812B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D41EC1A26EF0BF200B812B6;
+			remoteInfo = EmpManagementusingRealM;
+		};
+		0D41EC3D26EF0BF300B812B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D41EC1326EF0BF200B812B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D41EC1A26EF0BF200B812B6;
+			remoteInfo = EmpManagementusingRealM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D41EC1B26EF0BF200B812B6 /* EmpManagementusingRealM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmpManagementusingRealM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D41EC1E26EF0BF200B812B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D41EC2026EF0BF200B812B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D41EC2526EF0BF200B812B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D41EC2726EF0BF300B812B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D41EC2A26EF0BF300B812B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D41EC2C26EF0BF300B812B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D41EC3126EF0BF300B812B6 /* EmpManagementusingRealMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpManagementusingRealMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D41EC3526EF0BF300B812B6 /* EmpManagementusingRealMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpManagementusingRealMTests.swift; sourceTree = "<group>"; };
+		0D41EC3726EF0BF300B812B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D41EC3C26EF0BF300B812B6 /* EmpManagementusingRealMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmpManagementusingRealMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D41EC4026EF0BF300B812B6 /* EmpManagementusingRealMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpManagementusingRealMUITests.swift; sourceTree = "<group>"; };
+		0D41EC4226EF0BF300B812B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D41EC5126EF0D8E00B812B6 /* EmployeeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
+		0D41EC5226EF0D8E00B812B6 /* AddEmployeeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewController.swift; sourceTree = "<group>"; };
+		0D41EC5826EF0DC300B812B6 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
+		0D41EC5926EF0DC300B812B6 /* EmployeeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D41EC1826EF0BF200B812B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D41EC2E26EF0BF300B812B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D41EC3926EF0BF300B812B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D41EC1226EF0BF200B812B6 = {
+			isa = PBXGroup;
+			children = (
+				0D41EC1D26EF0BF200B812B6 /* EmpManagementusingRealM */,
+				0D41EC3426EF0BF300B812B6 /* EmpManagementusingRealMTests */,
+				0D41EC3F26EF0BF300B812B6 /* EmpManagementusingRealMUITests */,
+				0D41EC1C26EF0BF200B812B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D41EC1C26EF0BF200B812B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D41EC1B26EF0BF200B812B6 /* EmpManagementusingRealM.app */,
+				0D41EC3126EF0BF300B812B6 /* EmpManagementusingRealMTests.xctest */,
+				0D41EC3C26EF0BF300B812B6 /* EmpManagementusingRealMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D41EC1D26EF0BF200B812B6 /* EmpManagementusingRealM */ = {
+			isa = PBXGroup;
+			children = (
+				0D41EC5726EF0DA900B812B6 /* Cell */,
+				0D41EC5026EF0D6F00B812B6 /* ViewController */,
+				0D41EC4F26EF0D6800B812B6 /* Storyboard */,
+				0D41EC4E26EF0C1400B812B6 /* Resources */,
+				0D41EC2C26EF0BF300B812B6 /* Info.plist */,
+			);
+			path = EmpManagementusingRealM;
+			sourceTree = "<group>";
+		};
+		0D41EC3426EF0BF300B812B6 /* EmpManagementusingRealMTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D41EC3526EF0BF300B812B6 /* EmpManagementusingRealMTests.swift */,
+				0D41EC3726EF0BF300B812B6 /* Info.plist */,
+			);
+			path = EmpManagementusingRealMTests;
+			sourceTree = "<group>";
+		};
+		0D41EC3F26EF0BF300B812B6 /* EmpManagementusingRealMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D41EC4026EF0BF300B812B6 /* EmpManagementusingRealMUITests.swift */,
+				0D41EC4226EF0BF300B812B6 /* Info.plist */,
+			);
+			path = EmpManagementusingRealMUITests;
+			sourceTree = "<group>";
+		};
+		0D41EC4E26EF0C1400B812B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D41EC1E26EF0BF200B812B6 /* AppDelegate.swift */,
+				0D41EC2026EF0BF200B812B6 /* SceneDelegate.swift */,
+				0D41EC2726EF0BF300B812B6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D41EC4F26EF0D6800B812B6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0D41EC2926EF0BF300B812B6 /* LaunchScreen.storyboard */,
+				0D41EC2426EF0BF200B812B6 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0D41EC5026EF0D6F00B812B6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0D41EC5226EF0D8E00B812B6 /* AddEmployeeViewController.swift */,
+				0D41EC5126EF0D8E00B812B6 /* EmployeeListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0D41EC5726EF0DA900B812B6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0D41EC5826EF0DC300B812B6 /* EmployeeTableViewCell.swift */,
+				0D41EC5926EF0DC300B812B6 /* EmployeeTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D41EC1A26EF0BF200B812B6 /* EmpManagementusingRealM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D41EC4526EF0BF300B812B6 /* Build configuration list for PBXNativeTarget "EmpManagementusingRealM" */;
+			buildPhases = (
+				0D41EC1726EF0BF200B812B6 /* Sources */,
+				0D41EC1826EF0BF200B812B6 /* Frameworks */,
+				0D41EC1926EF0BF200B812B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmpManagementusingRealM;
+			productName = EmpManagementusingRealM;
+			productReference = 0D41EC1B26EF0BF200B812B6 /* EmpManagementusingRealM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D41EC3026EF0BF300B812B6 /* EmpManagementusingRealMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D41EC4826EF0BF300B812B6 /* Build configuration list for PBXNativeTarget "EmpManagementusingRealMTests" */;
+			buildPhases = (
+				0D41EC2D26EF0BF300B812B6 /* Sources */,
+				0D41EC2E26EF0BF300B812B6 /* Frameworks */,
+				0D41EC2F26EF0BF300B812B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D41EC3326EF0BF300B812B6 /* PBXTargetDependency */,
+			);
+			name = EmpManagementusingRealMTests;
+			productName = EmpManagementusingRealMTests;
+			productReference = 0D41EC3126EF0BF300B812B6 /* EmpManagementusingRealMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D41EC3B26EF0BF300B812B6 /* EmpManagementusingRealMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D41EC4B26EF0BF300B812B6 /* Build configuration list for PBXNativeTarget "EmpManagementusingRealMUITests" */;
+			buildPhases = (
+				0D41EC3826EF0BF300B812B6 /* Sources */,
+				0D41EC3926EF0BF300B812B6 /* Frameworks */,
+				0D41EC3A26EF0BF300B812B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D41EC3E26EF0BF300B812B6 /* PBXTargetDependency */,
+			);
+			name = EmpManagementusingRealMUITests;
+			productName = EmpManagementusingRealMUITests;
+			productReference = 0D41EC3C26EF0BF300B812B6 /* EmpManagementusingRealMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D41EC1326EF0BF200B812B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0D41EC1A26EF0BF200B812B6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					0D41EC3026EF0BF300B812B6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0D41EC1A26EF0BF200B812B6;
+					};
+					0D41EC3B26EF0BF300B812B6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 0D41EC1A26EF0BF200B812B6;
+					};
+				};
+			};
+			buildConfigurationList = 0D41EC1626EF0BF200B812B6 /* Build configuration list for PBXProject "EmpManagementusingRealM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D41EC1226EF0BF200B812B6;
+			productRefGroup = 0D41EC1C26EF0BF200B812B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D41EC1A26EF0BF200B812B6 /* EmpManagementusingRealM */,
+				0D41EC3026EF0BF300B812B6 /* EmpManagementusingRealMTests */,
+				0D41EC3B26EF0BF300B812B6 /* EmpManagementusingRealMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D41EC1926EF0BF200B812B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D41EC5B26EF0DC300B812B6 /* EmployeeTableViewCell.xib in Resources */,
+				0D41EC2B26EF0BF300B812B6 /* LaunchScreen.storyboard in Resources */,
+				0D41EC2826EF0BF300B812B6 /* Assets.xcassets in Resources */,
+				0D41EC2626EF0BF200B812B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D41EC2F26EF0BF300B812B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D41EC3A26EF0BF300B812B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D41EC1726EF0BF200B812B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D41EC1F26EF0BF200B812B6 /* AppDelegate.swift in Sources */,
+				0D41EC2126EF0BF200B812B6 /* SceneDelegate.swift in Sources */,
+				0D41EC5426EF0D8E00B812B6 /* AddEmployeeViewController.swift in Sources */,
+				0D41EC5A26EF0DC300B812B6 /* EmployeeTableViewCell.swift in Sources */,
+				0D41EC5326EF0D8E00B812B6 /* EmployeeListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D41EC2D26EF0BF300B812B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D41EC3626EF0BF300B812B6 /* EmpManagementusingRealMTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D41EC3826EF0BF300B812B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D41EC4126EF0BF300B812B6 /* EmpManagementusingRealMUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D41EC3326EF0BF300B812B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D41EC1A26EF0BF200B812B6 /* EmpManagementusingRealM */;
+			targetProxy = 0D41EC3226EF0BF300B812B6 /* PBXContainerItemProxy */;
+		};
+		0D41EC3E26EF0BF300B812B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D41EC1A26EF0BF200B812B6 /* EmpManagementusingRealM */;
+			targetProxy = 0D41EC3D26EF0BF300B812B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D41EC2426EF0BF200B812B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D41EC2526EF0BF200B812B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D41EC2926EF0BF300B812B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D41EC2A26EF0BF300B812B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D41EC4326EF0BF300B812B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D41EC4426EF0BF300B812B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D41EC4626EF0BF300B812B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR2K7K85K7;
+				INFOPLIST_FILE = EmpManagementusingRealM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.classplus.EmpManagementusingRealM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D41EC4726EF0BF300B812B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR2K7K85K7;
+				INFOPLIST_FILE = EmpManagementusingRealM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.classplus.EmpManagementusingRealM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D41EC4926EF0BF300B812B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR2K7K85K7;
+				INFOPLIST_FILE = EmpManagementusingRealMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.classplus.EmpManagementusingRealMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmpManagementusingRealM.app/EmpManagementusingRealM";
+			};
+			name = Debug;
+		};
+		0D41EC4A26EF0BF300B812B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR2K7K85K7;
+				INFOPLIST_FILE = EmpManagementusingRealMTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.classplus.EmpManagementusingRealMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmpManagementusingRealM.app/EmpManagementusingRealM";
+			};
+			name = Release;
+		};
+		0D41EC4C26EF0BF300B812B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR2K7K85K7;
+				INFOPLIST_FILE = EmpManagementusingRealMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.classplus.EmpManagementusingRealMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmpManagementusingRealM;
+			};
+			name = Debug;
+		};
+		0D41EC4D26EF0BF300B812B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR2K7K85K7;
+				INFOPLIST_FILE = EmpManagementusingRealMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.classplus.EmpManagementusingRealMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmpManagementusingRealM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D41EC1626EF0BF200B812B6 /* Build configuration list for PBXProject "EmpManagementusingRealM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D41EC4326EF0BF300B812B6 /* Debug */,
+				0D41EC4426EF0BF300B812B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D41EC4526EF0BF300B812B6 /* Build configuration list for PBXNativeTarget "EmpManagementusingRealM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D41EC4626EF0BF300B812B6 /* Debug */,
+				0D41EC4726EF0BF300B812B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D41EC4826EF0BF300B812B6 /* Build configuration list for PBXNativeTarget "EmpManagementusingRealMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D41EC4926EF0BF300B812B6 /* Debug */,
+				0D41EC4A26EF0BF300B812B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D41EC4B26EF0BF300B812B6 /* Build configuration list for PBXNativeTarget "EmpManagementusingRealMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D41EC4C26EF0BF300B812B6 /* Debug */,
+				0D41EC4D26EF0BF300B812B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D41EC1326EF0BF200B812B6 /* Project object */;
+}
